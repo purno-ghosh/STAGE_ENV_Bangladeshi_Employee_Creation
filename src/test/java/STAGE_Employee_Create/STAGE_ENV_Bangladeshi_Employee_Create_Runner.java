@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class STAGE_ENV_Germany_Employee_Create_Runner extends Setup {
+public class STAGE_ENV_Bangladeshi_Employee_Create_Runner extends Setup {
     @Test
     public void testEmployeeCreation() throws IOException, InterruptedException {
-        STAGE_ENV_Germany_Employee_Create employeeCreate = new STAGE_ENV_Germany_Employee_Create(driver);
+        STAGE_ENV_Bangladeshi_Employee_Create employeeCreate = new STAGE_ENV_Bangladeshi_Employee_Create(driver);
         employeeCreate.create_employee();
 
     }

@@ -15,7 +15,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class STAGE_ENV_Germany_Employee_Create {
+public class STAGE_ENV_Bangladeshi_Employee_Create {
 
     private WebDriver driver;
     private Setup setup;
@@ -117,7 +117,7 @@ public class STAGE_ENV_Germany_Employee_Create {
     WebElement Click_Finish;
 
 
-    public STAGE_ENV_Germany_Employee_Create(WebDriver driver) {
+    public STAGE_ENV_Bangladeshi_Employee_Create(WebDriver driver) {
         this.driver = driver;
         this.setup = new Setup();
         PageFactory.initElements(driver, this);
